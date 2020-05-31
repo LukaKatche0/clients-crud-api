@@ -1,0 +1,15 @@
+{
+  "name": "clientscrudapi",
+  "version": "1.0.0",
+  "description": "fake API for clients CRUD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch clientsDb.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
